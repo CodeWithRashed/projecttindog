@@ -1,0 +1,201 @@
+/* Title Section CSS Start Here */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* Title Section CSS End Here */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 10% 6%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 35px;
+  font-family: Ubuntu;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+
+.image-container {
+  padding-left: 10%;
+  position: absolute;
+}
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Features */
+#features {
+  background-color: #fff;
+  padding: 3% 10%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.col-lg-4 {
+  padding: 35px;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 25px;
+  font-family: Montserrat-bold;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 50px;
+  padding: 15px 0px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials Scation Start Here */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-imgae {
+  width: 20%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 7%;
+  text-align: center;
+  color: #fff;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 5px;
+}
+
+/* testimonials Scation end Here */
+
+/* Pricing Scation Start Here */
+#pricing {
+  padding: 5% 6%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.pricing-card {
+  padding: 5% 2%;
+}
+/* Pricing Scation End  Here */
+
+/* Cta Scation Start Here */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta-btn {
+  padding: 4px 20px;
+  margin: 10px 10px;
+}
+/* Cta Scation End Here */
+
+/* Footer Scation Start Here */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 10px;
+}
+
+/* Footer Scation End Here */
+
+/*Responsive Design Start Here */
+
+@media (max-width: 1030px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    width: 100%;
+  }
+
+  .image-container {
+    padding: 10%;
+    position: static;
+  }
+
+  h2 {
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+
+  #testimonials {
+    padding: 6%;
+  }
+
+  #pricing {
+    padding: 10%;
+  }
+}
