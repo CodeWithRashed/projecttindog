@@ -3,15 +3,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  font-family: "Montserrat-black", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 700;
-}
-
+h1,
 h2 {
-  font-family: "Montserrat-bold", sans-serif;
+  font-family: "Montserrat-black", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
@@ -168,6 +162,36 @@ p {
 /* Footer Scation End Here */
 
 /*Responsive Design Start Here */
+@media (max-width: 720px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    width: 100%;
+  }
+
+  .image-container {
+    padding: 5%;
+    position: static;
+  }
+
+  h2 {
+    font-family: "Montserrat-bold", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+
+  #testimonials {
+    padding: 3%;
+  }
+
+  #pricing {
+    padding: 5%;
+  }
+}
 
 @media (max-width: 1030px) {
   #title {
