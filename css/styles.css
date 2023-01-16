@@ -4,11 +4,17 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 h6 {
   font-family: "Montserrat-black", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
+}
+p {
+  color: #8f8f8f;
 }
 
 /* Title Section CSS End Here */
@@ -70,15 +76,11 @@ h2 {
 .col-lg-4 {
   padding: 35px;
 }
-h3 {
+.featurs-text {
   font-size: 1.5rem;
   line-height: 25px;
   font-family: Montserrat-bold;
   font-weight: 700;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 .feature-icon {
@@ -177,13 +179,6 @@ p {
     position: static;
   }
 
-  h2 {
-    font-family: "Montserrat-bold", sans-serif;
-    font-size: 2rem;
-    line-height: 1.5;
-    font-weight: 700;
-  }
-
   #testimonials {
     padding: 3%;
   }
@@ -206,13 +201,6 @@ p {
   .image-container {
     padding: 10%;
     position: static;
-  }
-
-  h2 {
-    font-family: "Montserrat-bold", sans-serif;
-    font-size: 2rem;
-    line-height: 1.5;
-    font-weight: 700;
   }
 
   #testimonials {
